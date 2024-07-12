@@ -1,0 +1,39 @@
+/* Example CSS for header */
+header {
+  background-color:lightblue;
+  padding: 10px 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 24px;
+  text-align: center;
+}
+
+.navigation-icons {
+  display: flex;
+}
+
+.navigation-icons a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.search-bar {
+  margin-top: 10px;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 200px;
+}

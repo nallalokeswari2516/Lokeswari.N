@@ -1,0 +1,36 @@
+.login{
+  margin-left: 450px;
+  margin-right:350px;
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 200px;;
+  padding-top: 200px;
+  text-shadow: 10px;
+}
+button:hover{
+   background-color: srgb(293, 299, 239);
+   border-radius: 10px;
+}
+input{
+  border-radius: 10px;
+}
+.login-container {
+  display: flex;
+  align-items: center;
+  height: 100vh; 
+  background-image: url('login1.jpg'); 
+  background-size: cover; 
+  
+}
+
+.login-content {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+label{
+  color: azure;
+}
+h2{
+  color:beige
+}
